@@ -22,7 +22,20 @@ This Project is Fully Responsive and userfriendly with mobile , tablet and deskt
 
 Here are some Screen Shots of the website :
 
-● Desktop View -![localhost_3000_ (1)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/4e09be0f-193b-4a49-8b57-f37b0b4292df)
+● Desktop View -
+
+![localhost_3000_ (1)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/4e09be0f-193b-4a49-8b57-f37b0b4292df)
+
+
+● Tablet View -
+
+![localhost_3000_(iPad Air)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/89648458-24e2-4485-8750-d68edb3acebf)
+
+
+● Mobile View -
+
+![localhost_3000_(iPhone 12 Pro) (1)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/f4d399c3-b817-4971-b82f-46886699cb63)
+
 
 
 
