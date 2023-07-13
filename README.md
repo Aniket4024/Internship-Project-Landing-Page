@@ -20,6 +20,12 @@ The Tech Stack I use to build this project :-
 
 This Project is Fully Responsive and userfriendly with mobile , tablet and desktop veiw
 
+Here are some Screen Shots of the website :
+
+● Desktop View -![localhost_3000_ (1)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/4e09be0f-193b-4a49-8b57-f37b0b4292df)
+
+
+
 Note : I have applied the carousel in this project and this carousel is also responsive , so whenever you want to see responsive ness of any particular device in desktop by Inspecting please reload the screen once if the carousel aligment will not see proper
 
 
