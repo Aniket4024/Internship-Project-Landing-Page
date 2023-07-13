@@ -23,7 +23,7 @@ This Project is Fully Responsive and userfriendly with mobile , tablet and deskt
 Note : I have applied the carousel in this project and this carousel is also responsive , so whenever you want to see responsive ness of any particular device in desktop by Inspecting please reload the screen once if the carousel aligment will not see proper
 
 
-Here is the Netlify Link of this Project for Preview : 
+Here is the Netlify Link of this Project for Preview : https://internship-project-landing-page.vercel.app/
 
 
 
