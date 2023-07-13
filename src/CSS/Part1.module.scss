@@ -1,0 +1,93 @@
+@import "../SASS/Button.scss";
+
+#Part1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    // border: 1px solid green;
+}
+#Part1>div:nth-child(1){
+    width: 75%;
+    height: 90%;
+    // background-color: antiquewhite;4
+    // border: 1px solid red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: width 0.3s;
+}
+
+#left>div{
+    width: 45%;
+    height: 90%;
+    // background-color: aquamarine;
+    // border: 1px solid blue;
+    text-align: start;
+    transition: width 0.3s;
+}
+#left>div>h1{
+    margin-top: 80px;
+}
+#left>div>p{
+    width: 80%;
+    font-weight: 500;
+}
+#left>div>Button{
+    box-shadow: $Button-shadow;
+    width: 200px;
+    height: 50px;
+    border-radius: 33px;
+    background-color: $Button-BG;
+    border: 0px;
+    margin-top: 40px;
+    color: $Button-color;
+    font-size: $Button-FontSize;
+    font-weight: $Button-FontWeight;
+    cursor: $Button-Cursor;
+}
+
+@media screen and (max-width:1300px) {
+    #left>div>h1{
+        margin-top: 50px;
+    }
+    #left>div{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1140px) {
+    
+    #left>div{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1140px) {
+    #Part1>div:nth-child(1){
+        width: 85%;
+    }   
+}
+@media screen and (max-width:835px) {
+    #left>div{
+        width: 80%;
+    }
+}
+@media screen and (max-width:630px) {
+    #left>div{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    #left>div>Button{
+
+    }
+    #left>div>p{
+        width: 95%;
+        font-weight: 500;
+    }
+    #left>div>h1{
+        margin-top: 10px;
+    }
+}

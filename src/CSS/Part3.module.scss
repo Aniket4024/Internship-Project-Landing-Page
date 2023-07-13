@@ -1,0 +1,132 @@
+
+
+#Part3{
+    height: 700px;
+    width: 100%;
+    // border: 1px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: height 0.3s;
+    margin-bottom: 200px;
+}
+
+#Part3>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: violet;
+    height: 15%;
+    width: 100%;
+    transition: width 0.3s;
+}
+#Part3>div:nth-child(2){
+    // border: 1px solid green;
+    height: 85%;
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 30px;
+    transition: width 0.3s,gap 0.3s;
+}
+.P3Card{
+    // border: 1px solid black;
+    height: 80%;
+    transition: height 0.3s;
+}
+.P3Card>img{
+    width: 230px;
+    height: 180px;
+    grid-area: Image;
+}
+.P3Card>h4{
+    text-align: start;
+    margin: 35px 20px;
+    grid-area: Head;
+}
+.P3Card>p{
+    text-align: start;
+    margin: 35px 20px;
+    grid-area: Para;
+}
+
+@media screen and (max-width:1300px) {
+    #Part3>div:nth-child(2){
+        width: 80%;
+    }
+}
+@media screen and (max-width:1125px) {
+    #Part3>div:nth-child(2){
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #Part3>div:nth-child(2){
+        gap: 10px;
+    }
+    .P3Card{
+        height: 85%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .P3card{
+        margin-top: 30px;
+    }
+    #Part3>div:nth-child(1){
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:900px) {
+    #Part3>div:nth-child(2){
+        grid-template-columns: repeat(1,1fr);
+    }
+    #Part3{
+        height: 900px;
+    }
+    .P3Card{
+        display: grid;
+        grid-template-areas: 
+            "Image Head Head Head"
+            "Image Para Para Para"
+        ;
+        gap: 0px 10px;
+    }
+    .P3Card>h4{
+        margin: 20px 20px;
+    }
+    .P3Card>p{
+        margin: 20px 20px;
+    }
+    #Part3>div:nth-child(2){
+        width: 85%;
+    }
+}
+@media screen and (max-width:750px) {
+    #Part3{
+        height: 1200px;
+    }
+}
+@media screen and (max-width:620px) {
+    #Part3{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:570px) {
+    .P3Card{
+        display: block;
+        height: 90%;
+    }
+    #Part3{
+        height: 1600px;
+    }
+}
+@media screen and (max-width:470px){
+    #Part3{
+        height: 1800px;
+    }
+}

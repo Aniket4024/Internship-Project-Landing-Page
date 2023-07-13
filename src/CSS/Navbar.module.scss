@@ -1,0 +1,97 @@
+
+
+#Navbar{
+    height: 120px;
+    width: 100%;
+    // border: 1px solid red;
+    background-color: white;
+}
+#Logo{
+    width: 100%;
+    height: 60%;
+    // background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Logo>img{
+    width:150px;
+}
+#Menu{
+    width: 60%;
+    height: 40%;
+    // background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    transition: width 0.3s;
+}
+#Menu>select{
+    border: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    outline: 0px;
+    background-color: transparent;
+}
+
+#popupMenu{
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    #Menu{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1000px) {
+    #Menu{
+        width: 80%;
+    }
+}
+@media screen and (max-width:800px) {
+    #Menu{
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px) {
+    #Navbar{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #Logo{
+        width: 40%;
+        // background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    #Logo>img{
+        width:140px;
+    }
+    #Menu{
+        display: none;
+    }
+    #popupMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        // background-color: pink;
+        height: 80%;
+    }
+}
+@media screen and (max-width:400px) {
+    #Navbar{
+        width: 80%;
+        margin: auto;
+    }
+    #popupMenu{
+        display: flex;
+        justify-content:end;
+    }
+}

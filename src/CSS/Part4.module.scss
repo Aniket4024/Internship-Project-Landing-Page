@@ -1,0 +1,120 @@
+@import "../SASS/Button.scss";
+
+#Part4{
+    height: 1100px;
+    width: 100%;
+    background-color: white;
+    // border: 1px solid teal;
+    transition: height 0.3s;
+}
+#Part4>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: violet;
+    height: 15%;
+}
+#Part4>div:nth-child(1)>h1{
+    margin-bottom: 60px;
+}
+#Part4>div:nth-child(2){
+    height: 85%;
+    width: 100%;
+    // background-color: rgb(154, 154, 154);
+}
+#Part4>div:nth-child(2)>div:nth-child(1){
+    justify-content: start;
+}
+#Part4>div:nth-child(2)>div:nth-child(2){
+    justify-content: end;
+}
+#Part4>div:nth-child(2)>div:nth-child(3){
+    justify-content: start;
+}
+#Part4>div:nth-child(2)>div:nth-child(4){
+    justify-content: end;
+}
+.P4Card{
+    height: 25%;
+    width: 75%;
+    // background-color: rgb(0, 255, 123);  
+    margin: auto; 
+    // border: 1px solid white;
+    align-items: center;
+    display: flex;
+    transition: width 0.3s;
+}
+.P4Card>div{
+    height: 95%;
+    width: 44%;
+    // background-color: rgb(194, 194, 194);
+    text-align: start;
+}
+.P4Card>div>div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.P4Card>div>button{
+    box-shadow: $Button-shadow;
+    width: 200px;
+    height: 50px;
+    border-radius: 33px;
+    background-color: $Button-BG;
+    border: 0px;
+    color: $Button-color;
+    font-size: $Button-FontSize;
+    font-weight: $Button-FontWeight;
+    cursor: $Button-Cursor;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1300px) {
+    #Part4{
+        height: 1300px;
+    }
+    #Part4>div:nth-child(1){
+        height: 10%;
+    }
+    #Part4>div:nth-child(2){
+        height: 90%;
+    }
+    .P4Card{
+        width: 80%;
+    }
+}
+@media screen and (max-width:1125px) {
+    .P4Card{
+        width: 90%;
+    }
+}
+@media screen and (max-width:950px) {
+    // .P3card{
+    //     margin-top: 30px;
+    // }
+    #Part4>div:nth-child(1){
+        width: 80%;
+        margin: auto;
+    }
+    .P4Card>div{
+        width: 55%;
+    }
+}
+@media screen and (max-width:730px) {
+    .P4Card>div{
+        width: 65%;
+    }
+    #Part4>div:nth-child(1){
+        height: 15%;
+    }
+    #Part4>div:nth-child(2){
+        height: 85%;
+    }
+}
+@media screen and (max-width:515px) {
+    .P4Card>div{
+        width: 95%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,22 @@
+
+
+#Footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+#Footer>div:nth-child(1){
+    height: 85%;
+}
+#Footer>hr{
+    border: 1px solid rgb(183, 183, 183);
+    width: 98%;
+    margin: auto;
+}
+#Footer>div:nth-child(3){
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

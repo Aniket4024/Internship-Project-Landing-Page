@@ -1,0 +1,80 @@
+
+
+#Part5{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    // border: 1px solid gray;
+    padding: 100px 0px;
+}
+#Part5>:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    // background-color: violet;
+}
+#Part5>:nth-child(2){
+    height: 85%;
+    width: 100%;
+    // background-color: rgb(203, 255, 203);
+    display: flex;
+    justify-content: center;
+}
+#Part5>:nth-child(2)>div{
+    width: 75%;
+    height: 60%;
+    box-shadow: 0px 16px 48px #00000029;
+    background-color: #F8FAFC;
+    border-radius: 30px;
+    margin: 50px;
+    transition: width 0.3s;
+}
+#header{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    height: 30%;
+}
+#header>img{
+    width: 50px;
+}
+#Carousel{
+    width: 80%;
+    height: 270px;
+    // border: 1px solid blue;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    transition: width 0.3s;
+}
+
+@media screen and (max-width:1300px) {
+    #Part5>:nth-child(2)>div{
+        width: 80%;
+    }
+    #Carousel{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1140px) {
+
+}
+@media screen and (max-width:700px) {
+    #Carousel{
+        width: 50%;
+    }
+    #Part5>:nth-child(2)>div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:550px) {
+    #Carousel{
+        width: 70%;
+    }
+}
