@@ -34,7 +34,7 @@ Here are some Screen Shots of the website :
 
 ● Mobile View -
 
-![localhost_3000_(iPhone 12 Pro) (1)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/f4d399c3-b817-4971-b82f-46886699cb63)
+![localhost_3000_(iPhone 12 Pro) (2)](https://github.com/Aniket4024/Internship-Project-Landing-Page/assets/108655504/b397cb38-7bfa-42b1-b9d3-83ebac684719)
 
 
 
